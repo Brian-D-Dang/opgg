@@ -78,22 +78,111 @@
     </ul>
   </div>
 </nav>
-<div id="bottom-menu-bar" class="container-fluid">
-  <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Disabled</a>
-    </li>
-  </ul>
+<nav id="bottom-menu-bar" class=" navbar navbar-expand-lg">
+  <div class="container-fluid justify-content-start">
+    <div style="width:440px"></div>
+    <div class="justify-content-start">
+      <ul class="nav col bottom-menu-bar-links">
+        <li class="nav-item" id="selected-menu-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item text-grey">
+          <a class="nav-link" href="#">Champions</a>
+        </li>
+        <li class="nav-item">
+          <a id="game-mode" class="nav-link" href="#">Game Mode</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Leaderboards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Pro Matches</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Multi-Search</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid d-flex justify-content-center mt-5">
+    <img src="https://opgg-static.akamaized.net/logo/20230214015743.9982ce59b3cc468a94d6f8892e8027ea.png?image=q_auto,f_webp,w_auto&amp;v=1676969392585" alt="OP.GG logo (Pray for Türkiye &amp; Syria)" title="Pray for Türkiye &amp; Syria" width="348" height="224">
+
 </div>
+
+<div class="container-fluid d-flex justify-content-center mt-5">
+  <div class="row main-page-item-color" style="width:800px; height:60px; border-style: solid; border-radius: 30px;">
+    <div style="width:224px" class="dropdown me-1">
+      <div class="container-fluid">
+        <small class="label text-white">Region</small>
+      </div>
+      <div class="container-fluid">
+        <button style="width:194px; text-align: left; color: #b5bec5 !important;" type="button" class="btn p-0 main-page-item-color dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+          North America
+        </button>
+      </div>
+    </div>
+    <div style="width:480px">
+      <div class="container-fluid">
+        <small class="label text-white">Search</small>
+      </div>
+      <div class="container-fluid">
+        <input style="width:400px; height:20px; text-align: left; color: #b5bec5 !important; border:0px" type="text" class="form-control main-page-item-color p-0" placeholder="Name1, Name2, ..." aria-label="Last name">
+      </div>
+    </div>
+    <div style="width:60px">
+      <button style="font-size: 26px; font-weight: bolder; color: #5383e8;" type="button" class="btn mt-2 p-0 main-page-item-color ">.GG</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="container-fluid d-flex justify-content-center mt-4">
+  <button style="background-color:#5383e8;" type="button" class="btn btn-primary btn-sm mt-1"><i class="bi bi-windows"></i> Download Now</button>
+
+</div>
+<div class="container-fluid d-flex justify-content-center mt-4">
+  <div id="ad" class="main-page-item-color"></div>
+</div>
+
+<div class="container-fluid d-flex justify-content-center mt-5 text-white">
+  <div class="main-page-item-color two-sections">
+    <p class="ms-3 p-3 mb-4" style="width:536px; height:17px; text-align:left;">
+      Experience the fast speed of OP.GG for Desktop!
+    </p>
+    <div class="row m-0" style="width:536px;text-align:center; background-color: #282830;">
+      <div class="col p-3" >
+        <p>Real-time Auto Rune Setting</p>
+      </div>
+      <div class="col p-3">
+        <p>OP Champions, Team Comps, and More</p>
+      </div>
+    </div>
+
+  </div>
+  <div id="section-spacer"></div>
+  <div class="main-page-item-color two-sections">
+    <div style="height:85px;width:536px;">
+      <div class="m-3">
+        <img src="https://s-lol-web.op.gg/static/images/icon/logo/logo-esports-white.svg?v=1676969392397" width="60" alt="esports.op.gg" height="16">
+        <img style="float:right;" src="https://s-lol-web.op.gg/static/images/esports/symbol-league-lcs-w.svg?v=1676969392397" width="68" alt="LCS" height="68">
+        <br>
+        <span>
+          <strong>LCS 2023 Spring</strong>
+        </span>
+
+      </div>
+
+    </div>
+  </div>
+  <button style="background-color: #28344e; border:0px; position:absolute; left:1800px; border-radius: 50%; width:60px; height:60px;" type="button"> <i class="bi bi-chat text-white"></i></button>
+</div>
+
+
+
 
 
 </body>
