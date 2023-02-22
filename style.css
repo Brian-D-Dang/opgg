@@ -1,3 +1,7 @@
+body {
+  background-color: #1c1c1f;
+}
+
 #top-menu-bar-logo {
   background-color: #5383e8;
   width:280px;
@@ -9,9 +13,24 @@
   height: 45px;
 }
 
+#top-menu-bar-etc {
+  width:370px;
+}
+
+#bottom-menu-bar {
+  background-color: #5383e8;
+  height:60px;
+}
+
 .top-menu-bar-links {
   color: #b5bec5 !important;
   text-align: center;
+}
+
+.btn-main {
+  background-color: #5383e8;
+  color:white;
+  width:70px;
 }
 
 .css-v5x69j {
